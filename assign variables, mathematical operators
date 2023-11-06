@@ -1,0 +1,18 @@
+##Create a solution that accepts three integer inputs representing the number of times an employee travels to a job site. Output the total distance traveled to two decimal places given the following miles per employee commute to the job site. Output the total distance traveled to two decimal places given the following miles per employee commute to the job site:
+##Employee A: 15.62 miles
+##Employee B: 41.85 miles
+##Employee C: 32.67 miles
+
+#solution accepts three integer inputs representing the number of times an employee travels to the job site
+#solution outputs "Distance: " followed by the total value to two decimal places
+a_num_trips = float(input())
+b_num_trips = float(input())
+c_num_trips = float(input())
+
+emp_a = 15.62
+emp_b = 41.85 
+emp_c = 32.67
+
+sum_trips= ((a_num_trips * emp_a) + (b_num_trips * emp_b) + (c_num_trips * emp_c))
+
+print('Distance:', f'{sum_trips:.2f}', 'miles')
