@@ -1,0 +1,25 @@
+##Create a solution that accepts five integer inputs. Output the sum of the five inputs three times, converting the inputs to the requested data type prior to finding the sum.
+
+#solution accepts five integer inputs
+#solution outputs three sums of input values; convert before calculating sum
+#first output: sum of five inputs maintained as integer values
+#second output: sum of five inputs converted to float values
+#third output: sum of five inputs converted to string values (concatenate)
+##The solution output should be in the format
+##Integer: integer_sum_value
+##Float: float_sum_value
+##String: string_sum_value
+
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+e = int(input())
+
+int1 = (int(a) + int(b) + int(c) + int(d) + int(e))
+int2 = float(int(a) + int(b) + int(c) + int(d) + int(e))
+int3 = (str(a) + str(b) + str(c) + str(d) + str(e))
+
+print('Integer:', int1)
+print('Float:', int2)
+print('String:', int3)
